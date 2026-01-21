@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Németh László Gimnázium és Általános Iskola - Hagyomány és Innováció Találkozása">
+    <title>Németh László Gimnázium - Általános Iskola</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">NLGMV</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Főoldal</a></li>
+                <li><a href="#programs">Programok</a></li>
+                <li><a href="#news">Hírek</a></li>
+                <li><a href="#about">Rólunk</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+                <li><a href="#enrollment" class="btn-nav">Beiratkozás</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Németh László Gimnázium<br>
+                <span class="hero-subtitle">Általános Iskola</span>
+            </h1>
+            <p class="hero-tagline">Hagyomány és Innováció Találkozása</p>
+            <div class="hero-cta">
+                <a href="#enrollment" class="btn btn-primary">Beiratkozás</a>
+                <a href="#about" class="btn btn-secondary">Tudj meg többet</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-animate>
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Tanulók</div>
+                </div>
+                <div class="stat-item" data-animate>
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="95">0</div>
+                    <div class="stat-label">Érettségi %</div>
+                </div>
+                <div class="stat-item" data-animate>
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="30">0</div>
+                    <div class="stat-label">Év Tapasztalat</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News/Events -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <h2 class="section-title">Aktuális Hírek</h2>
+            <div class="news-grid">
+                <article class="news-card" data-fade>
+                    <div class="news-image">
+                        <div class="news-placeholder" style="background: linear-gradient(135deg, #1a2c4e, #2d4575);"></div>
+                        <span class="news-date-badge">2026. Jan 15</span>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">Sikeres Language Cert Vizsgák</h3>
+                        <p class="news-excerpt">Iskolánk diákjai kiváló eredményeket értek el az idei Language Cert vizsgákon. Büszkék vagyunk rájuk!</p>
+                        <a href="#" class="news-link">Tovább olvasom →</a>
+                    </div>
+                </article>
+                <article class="news-card" data-fade>
+                    <div class="news-image">
+                        <div class="news-placeholder" style="background: linear-gradient(135deg, #c5a572, #d4b583);"></div>
+                        <span class="news-date-badge">2026. Jan 10</span>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">Nyílt Nap 2026</h3>
+                        <p class="news-excerpt">Szeretettel várjuk a leendő diákokat és szüleiket nyílt napunkon. Ismerjék meg iskolánkat!</p>
+                        <a href="#" class="news-link">Tovább olvasom →</a>
+                    </div>
+                </article>
+                <article class="news-card" data-fade>
+                    <div class="news-image">
+                        <div class="news-placeholder" style="background: linear-gradient(135deg, #2d4575, #c5a572);"></div>
+                        <span class="news-date-badge">2026. Jan 5</span>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">Új Számítástechnikai Labor</h3>
+                        <p class="news-excerpt">Modern eszközökkel felszerelt új számítástechnikai laborunk átadása megtörtént.</p>
+                        <a href="#" class="news-link">Tovább olvasom →</a>
+                    </div>
+                </article>
+            </div>
+            <div class="news-cta">
+                <a href="#" class="btn btn-outline">Összes Hír Megtekintése →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">Iskolánk Bemutatása</h2>
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <button class="play-button" id="playButton">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                        <div class="video-thumbnail"></div>
+                    </div>
+                    <video id="schoolVideo" controls style="display: none;">
+                        <source src="school-intro.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-info">
+                    <h3>Egy Nap Az Iskolában</h3>
+                    <p>Ismerje meg iskolánk mindennapjait, tanárainkat és diákjainkat ebben a rövid bemutató videóban.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs/Departments -->
+    <section class="programs-section" id="programs">
+        <div class="container">
+            <h2 class="section-title">Programjaink</h2>
+            <div class="programs-grid">
+                <div class="program-card" data-fade>
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                    </div>
+                    <h3>Gimnázium</h3>
+                    <p>4 és 6 évfolyamos gimnáziumi képzés, felvételi előkészítővel.</p>
+                </div>
+                <div class="program-card" data-fade>
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3>Általános Iskola</h3>
+                    <p>1-8. évfolyamos oktatás modern taneszközökkel és módszerekkel.</p>
+                </div>
+                <div class="program-card" data-fade>
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Kollégium</h3>
+                    <p>Korszerű kollégium vidéki diákjaink számára.</p>
+                </div>
+                <div class="program-card" data-fade>
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Language Cert</h3>
+                    <p>Akkreditált Language Cert vizsgaközpont több nyelven.</p>
+                </div>
+                <div class="program-card" data-fade>
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Érettségi Felkészítés</h3>
+                    <p>Intenzív érettségi előkészítő programok minden tantárgyból.</p>
+                </div>
+                <div class="program-card" data-fade>
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6m8.66-15L17 7.66M7 17 3.34 20.66M23 12h-6m-6 0H1m20.66 8.66L17 17M7 7 3.34 3.34"></path>
+                        </svg>
+                    </div>
+                    <h3>Szakkörök</h3>
+                    <p>Változatos szakkörök: sport, művészet, tudomány, technológia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section">
+        <div class="container">
+            <h2 class="section-title">Partnereink</h2>
+            <div class="partners-carousel">
+                <div class="partners-track" id="partnersTrack">
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">ProSuli</div>
+                    </div>
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">Language Cert</div>
+                    </div>
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">ECDL</div>
+                    </div>
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">Klebelsberg</div>
+                    </div>
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">OKTV</div>
+                    </div>
+                    <!-- Duplicates for infinite scroll -->
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">ProSuli</div>
+                    </div>
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">Language Cert</div>
+                    </div>
+                    <div class="partner-logo">
+                        <div class="partner-placeholder">ECDL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">NLGMV</div>
+                    <p class="footer-tagline">Németh László Gimnázium<br>Általános Iskola</p>
+                    <div class="footer-contact">
+                        <p>📍 Mátészalka, Kossuth u. 1.</p>
+                        <p>📞 +36 44 500 123</p>
+                        <p>✉️ info@nlgmv.hu</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Gyors Linkek</h4>
+                    <ul class="footer-links">
+                        <li><a href="#enrollment">Beiratkozás</a></li>
+                        <li><a href="#programs">Programok</a></li>
+                        <li><a href="#news">Hírek</a></li>
+                        <li><a href="#about">Rólunk</a></li>
+                        <li><a href="#contact">Kapcsolat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Információ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">ÁSZF</a></li>
+                        <li><a href="#">Adatvédelem</a></li>
+                        <li><a href="#">Dokumentumok</a></li>
+                        <li><a href="#">Tantárgyfelosztás</a></li>
+                        <li><a href="#">Órarend</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kövess Minket</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#1a2c4e"></polygon>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-map">
+                        <div class="map-placeholder">🗺️ Térkép</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Németh László Gimnázium. Minden jog fenntartva.</p>
+                <a href="#">Adatvédelmi Szabályzat</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
